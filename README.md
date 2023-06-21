@@ -16,8 +16,6 @@ rho    <- 0.5
 
 xi     <- -0.9
 
-mu     <- c(log(eta1),log(eta2))
-
 Sigma  <- matrix(c(sigma1^2,rho * sigma1 * sigma2,rho * sigma1 * sigma2,sigma2^2), 2,2, byrow = TRUE)
 
 data = rmlogsym.Choleski(n=1000, etas=c(eta1,eta2), sigmas=c(sigma1,sigma2), rho=rho,  xi=xi, family="Powerexp")
