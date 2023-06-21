@@ -1,7 +1,9 @@
 # bivariate-log-symmetric models
 
 ################################################
+
 ################### Tests ######################
+
 ################################################
 ## Example with the bivariate power-exponential model 
 
